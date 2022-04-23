@@ -85,7 +85,7 @@ PRIVATE_KEY="<PRIVATE_KEY>"           # Private key of contract owner
 ```
 
 Fill in the blanks and be careful not to leak them. The `.env` file is present in `.gitignore`.
-If you are uncomfortable in having these values in the repository you may also provide via 
+If you are uncomfortable in having these values in the repository you may also provide them via 
 environment variables.
 
 Check the `hardhat.config.ts` file that your desired networks are defined. For Enso these are Fantom
