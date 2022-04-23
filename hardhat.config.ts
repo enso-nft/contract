@@ -21,7 +21,7 @@ const config: HardhatUserConfig = {
   },
   networks: {
     "test-fantom": {
-      url: "https://rpc.ftm.tools/",
+      url: "https://rpc.testnet.fantom.network/",
       accounts: process.env.PRIVATE_KEY !== undefined
         ? [process.env.PRIVATE_KEY]
         : [],
