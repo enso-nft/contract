@@ -51,7 +51,7 @@ All of these features are extensively tested in the included test suite with aro
 
 **Disclaimer:** 
 Note that some of the features are very powerful in what they grant to the contract owner. Notably, 
-the ability to change the metadata has proven to be a big risk factor in other projects and their 
+the ability to change the metadata has proven to be a big risk factor in other projects and to their 
 community members. The use of each and every functionality must be openly communicated. <br>
 
 For example, the metadata can be changed, but one should only do so before any minting is made 
