@@ -24,7 +24,7 @@ For more information about these standards visit the
 
 Additionally, we have implemented the following features: 
 
-* **Withdrawel** <br>
+* **Withdrawal** <br>
   The contract owner can withdraw the mint revenue to any address.
 * **Whitelist** <br>
   The whitelist is customizable with a discounted price, separate launch and an arbitrary amount of 
