@@ -18,7 +18,7 @@ async function main() {
     mintable: false,
     whitelistMintable: false,
     royalty: {
-      receiver: ethers.Wallet.createRandom().address,
+      receiver: "<ROYALTY_RECEIVER_ADDRESS>",
       basisPoints: 0,
     },
   });

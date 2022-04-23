@@ -101,6 +101,16 @@ Finally, the deployment can be made via:
 npx hardhat run --network "<YOUR_DESIRED_NETWORK>" "scripts/<YOUR_DESIRED_SCRIPT>"
 ```
 
+### Verify the Smart Contract
+
+After deploying the smart contract it is important to verify it. This discloses and links the 
+source code of the deployed smart contract. The verification guarantees to any third party that 
+nothing malicious is going on. 
+
+For this, we provide a script `scripts/test-verify.ts` which is pre-filled with the constructor 
+variables of `scripts/test-deploy.ts`. Adjust as necessary and provide the deployed contract 
+address.
+
 ## Further Improvements
 
 The smart contract itself could be further improved by separating the functions into individual 
