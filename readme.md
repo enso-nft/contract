@@ -37,7 +37,7 @@ Additionally, we have implemented the following features:
   setting the whitelist.
 * **Token Enumeration** <br>
   The ERC721Enumerable extension provides methods to build further enumeration utilities like 
-  listing all token Ids and tokens held by any address. The implementation is inspired by BCG's contract.
+  listing all token Ids and tokens held by any address. The implementation is inspired by [BCG](https://babychimpgang.com/)'s [contract](https://ftmscan.com/address/0x4c6dcdd6d6C6432Ed02B468501C019fca1fe17e2#code).
 * **Lowering of Maximum Collectible Supply** <br>
   One can lower the maximum collectible supply, but not increase it.
 * **Adjustment of Whitelist and Public Mint Price** <br>
@@ -80,8 +80,8 @@ npx hardhat test
 Create a `.env` file in the root of the repository with the following structure.
 
 ```sh
-SCAN_API_KEY=<SCAN_API_KEY>         # Fantomscan / Etherscan or similar api key
-PRIVATE_KEY=<PRIVATE_KEY>           # Private key of contract owner
+SCAN_API_KEY="<SCAN_API_KEY>"         # Fantomscan / Etherscan or similar api key
+PRIVATE_KEY="<PRIVATE_KEY>"           # Private key of contract owner
 ```
 
 Fill in the blanks and be careful not to leak them. The `.env` file is present in `.gitignore`.
