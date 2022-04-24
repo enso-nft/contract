@@ -4,9 +4,9 @@ This repository contains the Solidity smart contract of Enso, a detailed list of
 deployment instructions. 
 
 We strongly believe in giving back to the community and the NFT space as a whole.
-Advancements in smart contracts can only be achieved through open collaboration.
+Advancements in smart contracts can only be made through open collaboration.
 
-When we embarked upon creating Enso, there was no single comprehensive resource for building all 
+When we started our journey with Enso, there was no single comprehensive resource for building all 
 the features that have made it into this smart contract.
 We hope that this repository can serve as a building block and guideline for future projects.
 
